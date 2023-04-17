@@ -1,3 +1,3 @@
 # storeproject
 
-# This file shows an online store
+This file shows an online store
