@@ -1,0 +1,212 @@
+<!-- Create an online shopping page/online store with products on display using bootstrap-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Online Store</title>
+
+    <!--Responsive meta tag so that page is responsive to all devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Connect CSS stylesheet and boostrap framework-->
+    <link href ="Stylesheet.css" rel ="stylesheet" type ="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<header>
+    <!--Place header in contrainer-->
+    <div class="container-fluid">
+        <div class="row">
+            <!--Format the main store header in the following way: Have this column go across the whole page, center text, adjust padding, make the text stand out and add a light gray background colour-->
+            <div class = "col-md-12 text-center pt-3 pb-3 mb-4 bg-light text-dark">
+                <h1 class="display-5"><b>Home Store</b></h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <!--Please the body in a contrainer-->
+    <div class ="container overflow-hidden">
+        <!--Please note that the explanatory text/comment in the following <div> is the same and applies to each and every store item below-->
+        <!--Have maximum gutter sizes for both vertical and horizontal gutters (i.e. max spacing and padding between)-->
+        <div class="row gx-5 gy-3">
+            <!--Position the text that's below the image in the center-->
+            <div class = "col-md-4 text-center">
+                <!--Product image should be responsive and change (using hover effect) to indicate when a user moves their mouse over the image-->
+                <!--Ref: Used the following to assist with hover effect: https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity-->
+                <div class="image_with_hover">
+                     <!--Insert product image-->
+                    <img src="Store_Photos/Table_Chair.jpg" class="img-fluid" alt ="Table and Chair Set">
+                    <div class="hover_view"></div>
+                </div>
+                 <!--Insert product name-->
+                <h2 id="product_heading" class="mt-1">Table and Chair Set</h2>
+                 <!--Insert price-->
+                <p">Price: R3 500</p>
+                <!--Insert buy button-->
+                <button type="button" class="btn btn-secondary">Buy</button>
+            </div>
+    
+            <div class = "col-md-4 text-center">
+                <div class="image_with_hover">
+                    <img src="Store_Photos/Bed.jpg" class="img-fluid" alt ="Bed">
+                    <div class="hover_view"></div>
+                </div>
+                <h2 id="product_heading" class="mt-1">Bed</h2>
+                <p>Price: R8 000</p>
+                <button type="button" class="btn btn-secondary">Buy</button>
+            </div>
+
+            <div class = "col-md-4 text-center">
+                <div class="image_with_hover">
+                    <img src ="Store_Photos/Pillows.jpg" class="img-fluid" alt ="Pillow Set">
+                    <div class="hover_view"></div>
+                </div>
+                <h2 id="product_heading" class="mt-1">Pillows</h2>
+                <p>Price: R450</p>
+                <button type="button" class="btn btn-secondary">Buy</button>
+            </div>
+
+        <div class="row gx-5 gy-3">
+            <div class = "col-md-4 text-center">
+                <div class="image_with_hover">
+                    <img src="Store_Photos/Bath.jpg" class="img-fluid" alt="Bath">
+                    <div class="hover_view"></div>
+                </div>
+                <h2 id="product_heading" class="mt-1">Bath</h2>
+                <p>Price: R6 500</p>
+                <button type="button" class="btn btn-secondary">Buy</button>
+            </div>
+
+            <div class = "col-md-4 text-center">
+                <div class="image_with_hover">
+                    <img src="Store_Photos/Towels.jpg" class="img-fluid" alt="Towels">
+                    <div class="hover_view"></div>
+                </div>
+                <h2 id="product_heading" class="mt-1">Towel Set</h2>
+                <p>Price: R400</p>
+                <button type="button" class="btn btn-secondary">Buy</button>
+            </div>
+
+            <div class = "col-md-4 text-center">
+                <div class="image_with_hover">
+                    <img src="Store_Photos/Mirror.jpg" class="img-fluid" alt="Mirror">
+                    <div class="hover_view"></div>
+                </div>
+                <h2 id="product_heading" class="mt-1">Mirror</h2>
+                <p>Price: R2 000</p>
+                <button type="button" class="btn btn-secondary">Buy</button>
+            </div>
+        </div>
+
+        <div class="row gx-5 gy-3">
+            <div class = "col-md-4 text-center">
+                <div class="image_with_hover">
+                    <img src="Store_Photos/Candles.jpg" class="img-fluid" alt="Candles">
+                    <div class="hover_view"></div>
+                </div>
+                <h2 id="product_heading" class="mt-1">Candles</h2>
+                <p>Price: R160</p>
+                <button type="button" class="btn btn-secondary">Buy</button>
+            </div>
+
+            <div class = "col-md-4 text-center">
+                <div class="image_with_hover">
+                    <img src="Store_Photos/Vase.jpg" class="img-fluid" alt="Vase">
+                    <div class="hover_view"></div>
+                </div>
+                <h2 id="product_heading" class="mt-1">Ceramic Vase</h2>
+                <p>Price: R230</p>
+                <button type="button" class="btn btn-secondary">Buy</button>
+            </div>
+
+            <div class = "col-md-4 text-center">
+                <div class="image_with_hover">
+                    <img src="Store_Photos/Mug.jpg" class="img-fluid" alt="Mug">
+                    <div class="hover_view"></div>
+                </div>
+                <h2 id="product_heading" class="mt-1">Ceramic Mug</h2>
+                <p>Price: R160</p>
+                <button type="button" class="btn btn-secondary">Buy</button>
+            </div>
+    
+        <div class="row gx-5 gy-3">
+            <div class = "col-md-4 text-center mx-auto">
+                <div class="image_with_hover">
+                    <img src ="Store_Photos/Plate_set.jpg" class="img-fluid" alt="Plate Set">
+                    <div class="hover_view"></div>
+                </div>
+                <h2 id="product_heading" class="mt-1">Plate Set</h2>
+                <p>Price: R1 200</p>
+                <button type="button" class="btn btn-secondary">Buy</button>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+
+<footer>
+    <!--Place the footer in a container-->
+    <div class="container">
+        <!--Center the elements in the footer row (i.e. align the form and logo column grids to the center)-->
+        <div class="row align-items-center">
+            <!--Contact us form column-->
+            <div class = "col-md-8 mx-auto">
+                <div class="mt-4">
+                    <h2>Contact Us</h2>
+                </div>
+                <p>Please enter your contact details in the form below so we can get back to you. Thank you!</p>
+                 <!--Horizontal form input-->
+                <form>
+                    <!--Request customer to enter their first name in an input box-->
+                    <div class="form-group row">
+                        <label for="CustomerName" class="col-md-2 col-form-label">First Name:</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control mb-3" id="CustomerName" placeholder="Please enter your first name.">
+                        </div>
+                    </div>
+                    <!--Request customer to enter their contact email address in input box-->
+                    <div class="form-group row">
+                        <label for="Email" class="col-md-2 col-form-label">Email Address:</label>
+                        <div class="col-md-10">
+                            <input type="email"  class="form-control mb-3" id="EmailAddress" placeholder="Please enter your email address.">
+                        </div>
+                    </div>
+                    <!--Request customer enter any message related to their query they would like to add with their contact details-->
+                    <!--Increase margin below to keep ensure space between this box and the submit button-->
+                    <div class="form-group row">
+                        <label for="CustomerMessage" class="col-md-2 col-form-label">Message:</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control mb-3" id="CustomerMessage" placeholder="Please enter your query or message and share any details that may assist us to support you.">
+                        </div>
+                    </div class="mt-5">
+                    <!--Insert button so customer can select to submit the contact information they have provided-->
+                        <button type="button" class="btn btn-primary mb-5">Submit</button>           
+                    </div>
+                </form>
+            <!--Include small logo next to the form.The logo should adjust for when viewed from a small screen as well.-->
+            <div class = "col-md-2 col-4">
+                <img src="Store_Photos/Store_logo.png" id="StoreLogo" class="img-fluid" alt="Home Store Logo">
+            </div>
+        </div>
+
+
+
+        </div>  
+
+    </div>    
+
+
+</footer>
+
+
+
+
+
+
+</html>
